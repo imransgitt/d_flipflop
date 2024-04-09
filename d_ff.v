@@ -5,7 +5,7 @@ if(reset) begin
 q<=1'b0;
 end
 else begin
-q<=d;
+q<=~d;
 end
 end
 endmodule
